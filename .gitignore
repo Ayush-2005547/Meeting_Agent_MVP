@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+*.pot
+
+# Virtual environment
+venv/
+env/
+*.egg-info/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Data
+data/
+*.csv
+*.tsv
+*.json  # Optional: only if you don't want to push cleaned/generated JSON outputs
+
+# Models (Hugging Face / PyTorch / TensorFlow)
+models/
+*.pt
+*.bin
+*.h5
+
+# Outputs
+outputs/*.json  # Optional: if you don't want to push summaries
+outputs/*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
