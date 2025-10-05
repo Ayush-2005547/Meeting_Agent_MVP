@@ -60,4 +60,4 @@ output_file = os.path.join(OUTPUT_PATH, "meetingbank_train_cleaned.json")
 with open(output_file, "w", encoding="utf-8") as f:
     json.dump(cleaned_data, f, ensure_ascii=False, indent=4)
 
-print(f"✅ Cleaned MeetingBank transcripts saved at: {output_file}")
+print(f"Cleaned MeetingBank transcripts saved at: {output_file}")
