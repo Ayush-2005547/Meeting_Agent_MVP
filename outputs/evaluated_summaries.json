@@ -1,0 +1,202 @@
+[
+  {
+    "meeting_id": "1",
+    "ref_len": 30,
+    "gen_len": 0,
+    "ref_keywords": [
+      "mr.",
+      "smith's",
+      "getting",
+      "check-up,",
+      "doctor"
+    ],
+    "gen_keywords": [],
+    "missing_keywords": [
+      "mr.",
+      "smith's",
+      "getting",
+      "check-up,",
+      "doctor"
+    ]
+  },
+  {
+    "meeting_id": "2",
+    "ref_len": 18,
+    "gen_len": 0,
+    "ref_keywords": [
+      "ricky",
+      "mrs",
+      "parker",
+      "takes",
+      "his"
+    ],
+    "gen_keywords": [],
+    "missing_keywords": [
+      "ricky",
+      "mrs",
+      "parker",
+      "takes",
+      "his"
+    ]
+  },
+  {
+    "meeting_id": "3",
+    "ref_len": 15,
+    "gen_len": 0,
+    "ref_keywords": [
+      "#person1#'s",
+      "looking",
+      "set",
+      "keys",
+      "asks"
+    ],
+    "gen_keywords": [],
+    "missing_keywords": [
+      "#person1#'s",
+      "looking",
+      "set",
+      "keys",
+      "asks"
+    ]
+  },
+  {
+    "meeting_id": "4",
+    "ref_len": 16,
+    "gen_len": 0,
+    "ref_keywords": [
+      "#person2#",
+      "#person1#'s",
+      "angry",
+      "because",
+      "didn't"
+    ],
+    "gen_keywords": [],
+    "missing_keywords": [
+      "#person2#",
+      "#person1#'s",
+      "angry",
+      "because",
+      "didn't"
+    ]
+  },
+  {
+    "meeting_id": "5",
+    "ref_len": 16,
+    "gen_len": 0,
+    "ref_keywords": [
+      "malik",
+      "nikki",
+      "invites",
+      "dance.",
+      "agrees"
+    ],
+    "gen_keywords": [],
+    "missing_keywords": [
+      "malik",
+      "nikki",
+      "invites",
+      "dance.",
+      "agrees"
+    ]
+  },
+  {
+    "meeting_id": "6",
+    "ref_len": 10,
+    "gen_len": 0,
+    "ref_keywords": [
+      "aims",
+      "lisa",
+      "gives",
+      "birthday",
+      "present"
+    ],
+    "gen_keywords": [],
+    "missing_keywords": [
+      "aims",
+      "lisa",
+      "gives",
+      "birthday",
+      "present"
+    ]
+  },
+  {
+    "meeting_id": "7",
+    "ref_len": 9,
+    "gen_len": 0,
+    "ref_keywords": [
+      "#person1#",
+      "tells",
+      "#person2#",
+      "fare",
+      "taking"
+    ],
+    "gen_keywords": [],
+    "missing_keywords": [
+      "#person1#",
+      "tells",
+      "#person2#",
+      "fare",
+      "taking"
+    ]
+  },
+  {
+    "meeting_id": "8",
+    "ref_len": 42,
+    "gen_len": 0,
+    "ref_keywords": [
+      "#person1#",
+      "judy",
+      "she",
+      "they",
+      "her"
+    ],
+    "gen_keywords": [],
+    "missing_keywords": [
+      "#person1#",
+      "judy",
+      "she",
+      "they",
+      "her"
+    ]
+  },
+  {
+    "meeting_id": "9",
+    "ref_len": 16,
+    "gen_len": 0,
+    "ref_keywords": [
+      "#person1#",
+      "shows",
+      "basic",
+      "computer",
+      "package"
+    ],
+    "gen_keywords": [],
+    "missing_keywords": [
+      "#person1#",
+      "shows",
+      "basic",
+      "computer",
+      "package"
+    ]
+  },
+  {
+    "meeting_id": "10",
+    "ref_len": 17,
+    "gen_len": 0,
+    "ref_keywords": [
+      "#person1#",
+      "visa",
+      "has",
+      "interview",
+      "official."
+    ],
+    "gen_keywords": [],
+    "missing_keywords": [
+      "#person1#",
+      "visa",
+      "has",
+      "interview",
+      "official."
+    ]
+  }
+]
