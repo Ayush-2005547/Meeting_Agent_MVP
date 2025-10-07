@@ -3,7 +3,6 @@
 # **Meeting Summaries MVP**
 
 ## **Project Overview**
-
 This project is an MVP for evaluating and visualizing **meeting summaries**. It includes:
 
 * A **dummy evaluation script** (`auto_eval_with_dummy.py`) to generate placeholder summaries and compute metrics.
