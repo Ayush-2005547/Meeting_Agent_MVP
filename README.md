@@ -1,5 +1,3 @@
----
-
 # **Meeting Summaries MVP**
 
 ## **Project Overview**
@@ -131,5 +129,4 @@ git merge main
 * `auto_eval_with_dummy.py` is for demo purposes only.
 * All paths in scripts are **relative to project root**.
 
----
 
