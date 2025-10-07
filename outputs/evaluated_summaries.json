@@ -1,8 +1,11 @@
 [
   {
     "meeting_id": "1",
+    "reference": "Mr. Smith's getting a check-up, and Doctor Hawkins advises him to have one every year. Hawkins'll give some information about their classes and medications to help Mr. Smith quit smoking.",
+    "generated_summary": "This is a placeholder summary for meeting 1.",
     "ref_len": 30,
-    "gen_len": 0,
+    "gen_len": 8,
+    "length_ratio": 0.26666666666666666,
     "ref_keywords": [
       "mr.",
       "smith's",
@@ -10,19 +13,30 @@
       "check-up,",
       "doctor"
     ],
-    "gen_keywords": [],
+    "gen_keywords": [
+      "this",
+      "placeholder",
+      "summary",
+      "meeting",
+      "1."
+    ],
     "missing_keywords": [
       "mr.",
       "smith's",
       "getting",
       "check-up,",
       "doctor"
-    ]
+    ],
+    "rouge1_f1": 0.04878048780487805,
+    "rougeL_f1": 0.04878048780487805
   },
   {
     "meeting_id": "2",
+    "reference": "Mrs Parker takes Ricky for his vaccines. Dr. Peters checks the record and then gives Ricky a vaccine.",
+    "generated_summary": "This is a placeholder summary for meeting 2.",
     "ref_len": 18,
-    "gen_len": 0,
+    "gen_len": 8,
+    "length_ratio": 0.4444444444444444,
     "ref_keywords": [
       "ricky",
       "mrs",
@@ -30,19 +44,30 @@
       "takes",
       "his"
     ],
-    "gen_keywords": [],
+    "gen_keywords": [
+      "this",
+      "placeholder",
+      "summary",
+      "meeting",
+      "2."
+    ],
     "missing_keywords": [
       "ricky",
       "mrs",
       "parker",
       "takes",
       "his"
-    ]
+    ],
+    "rouge1_f1": 0.15384615384615383,
+    "rougeL_f1": 0.07692307692307691
   },
   {
     "meeting_id": "3",
+    "reference": "#Person1#'s looking for a set of keys and asks for #Person2#'s help to find them.",
+    "generated_summary": "This is a placeholder summary for meeting 3.",
     "ref_len": 15,
-    "gen_len": 0,
+    "gen_len": 8,
+    "length_ratio": 0.5333333333333333,
     "ref_keywords": [
       "#person1#'s",
       "looking",
@@ -50,19 +75,30 @@
       "keys",
       "asks"
     ],
-    "gen_keywords": [],
+    "gen_keywords": [
+      "this",
+      "placeholder",
+      "summary",
+      "meeting",
+      "3."
+    ],
     "missing_keywords": [
       "#person1#'s",
       "looking",
       "set",
       "keys",
       "asks"
-    ]
+    ],
+    "rouge1_f1": 0.15999999999999998,
+    "rougeL_f1": 0.15999999999999998
   },
   {
     "meeting_id": "4",
+    "reference": "#Person1#'s angry because #Person2# didn't tell #Person1# that #Person2# had a girlfriend and would marry her.",
+    "generated_summary": "This is a placeholder summary for meeting 4.",
     "ref_len": 16,
-    "gen_len": 0,
+    "gen_len": 8,
+    "length_ratio": 0.5,
     "ref_keywords": [
       "#person2#",
       "#person1#'s",
@@ -70,19 +106,30 @@
       "because",
       "didn't"
     ],
-    "gen_keywords": [],
+    "gen_keywords": [
+      "this",
+      "placeholder",
+      "summary",
+      "meeting",
+      "4."
+    ],
     "missing_keywords": [
       "#person2#",
       "#person1#'s",
       "angry",
       "because",
       "didn't"
-    ]
+    ],
+    "rouge1_f1": 0.07692307692307691,
+    "rougeL_f1": 0.07692307692307691
   },
   {
     "meeting_id": "5",
+    "reference": "Malik invites Nikki to dance. Nikki agrees if Malik doesn't mind getting his feet stepped on.",
+    "generated_summary": "This is a placeholder summary for meeting 5.",
     "ref_len": 16,
-    "gen_len": 0,
+    "gen_len": 8,
+    "length_ratio": 0.5,
     "ref_keywords": [
       "malik",
       "nikki",
@@ -90,19 +137,30 @@
       "dance.",
       "agrees"
     ],
-    "gen_keywords": [],
+    "gen_keywords": [
+      "this",
+      "placeholder",
+      "summary",
+      "meeting",
+      "5."
+    ],
     "missing_keywords": [
       "malik",
       "nikki",
       "invites",
       "dance.",
       "agrees"
-    ]
+    ],
+    "rouge1_f1": 0.0,
+    "rougeL_f1": 0.0
   },
   {
     "meeting_id": "6",
+    "reference": "Lisa gives Aims a birthday present and Aims loves it.",
+    "generated_summary": "This is a placeholder summary for meeting 6.",
     "ref_len": 10,
-    "gen_len": 0,
+    "gen_len": 8,
+    "length_ratio": 0.8,
     "ref_keywords": [
       "aims",
       "lisa",
@@ -110,19 +168,30 @@
       "birthday",
       "present"
     ],
-    "gen_keywords": [],
+    "gen_keywords": [
+      "this",
+      "placeholder",
+      "summary",
+      "meeting",
+      "6."
+    ],
     "missing_keywords": [
       "aims",
       "lisa",
       "gives",
       "birthday",
       "present"
-    ]
+    ],
+    "rouge1_f1": 0.11111111111111112,
+    "rougeL_f1": 0.11111111111111112
   },
   {
     "meeting_id": "7",
+    "reference": "#Person1# tells #Person2# the fare of taking a taxi.",
+    "generated_summary": "This is a placeholder summary for meeting 7.",
     "ref_len": 9,
-    "gen_len": 0,
+    "gen_len": 8,
+    "length_ratio": 0.8888888888888888,
     "ref_keywords": [
       "#person1#",
       "tells",
@@ -130,19 +199,30 @@
       "fare",
       "taking"
     ],
-    "gen_keywords": [],
+    "gen_keywords": [
+      "this",
+      "placeholder",
+      "summary",
+      "meeting",
+      "7."
+    ],
     "missing_keywords": [
       "#person1#",
       "tells",
       "#person2#",
       "fare",
       "taking"
-    ]
+    ],
+    "rouge1_f1": 0.11764705882352941,
+    "rougeL_f1": 0.11764705882352941
   },
   {
     "meeting_id": "8",
+    "reference": "Judy Liao's applying for the accounts assistant position. She asks #Person1# whether they have received her resume, and #Person1# helps her check. #Person1# tells Judy there's nothing else she should send, and after a week or two they may start calling applicants.",
+    "generated_summary": "This is a placeholder summary for meeting 8.",
     "ref_len": 42,
-    "gen_len": 0,
+    "gen_len": 8,
+    "length_ratio": 0.19047619047619047,
     "ref_keywords": [
       "#person1#",
       "judy",
@@ -150,19 +230,30 @@
       "they",
       "her"
     ],
-    "gen_keywords": [],
+    "gen_keywords": [
+      "this",
+      "placeholder",
+      "summary",
+      "meeting",
+      "8."
+    ],
     "missing_keywords": [
       "#person1#",
       "judy",
       "she",
       "they",
       "her"
-    ]
+    ],
+    "rouge1_f1": 0.07692307692307693,
+    "rougeL_f1": 0.038461538461538464
   },
   {
     "meeting_id": "9",
+    "reference": "#Person1# shows a basic computer package to #Person2#. #Person2# thinks it's good and will take it.",
+    "generated_summary": "This is a placeholder summary for meeting 9.",
     "ref_len": 16,
-    "gen_len": 0,
+    "gen_len": 8,
+    "length_ratio": 0.5,
     "ref_keywords": [
       "#person1#",
       "shows",
@@ -170,19 +261,30 @@
       "computer",
       "package"
     ],
-    "gen_keywords": [],
+    "gen_keywords": [
+      "this",
+      "placeholder",
+      "summary",
+      "meeting",
+      "9."
+    ],
     "missing_keywords": [
       "#person1#",
       "shows",
       "basic",
       "computer",
       "package"
-    ]
+    ],
+    "rouge1_f1": 0.07999999999999999,
+    "rougeL_f1": 0.07999999999999999
   },
   {
     "meeting_id": "10",
+    "reference": "#Person1# has an interview with a visa official. #Person1# asks #Person2# the way to the visa office.",
+    "generated_summary": "This is a placeholder summary for meeting 10.",
     "ref_len": 17,
-    "gen_len": 0,
+    "gen_len": 8,
+    "length_ratio": 0.47058823529411764,
     "ref_keywords": [
       "#person1#",
       "visa",
@@ -190,13 +292,21 @@
       "interview",
       "official."
     ],
-    "gen_keywords": [],
+    "gen_keywords": [
+      "this",
+      "placeholder",
+      "summary",
+      "meeting",
+      "10."
+    ],
     "missing_keywords": [
       "#person1#",
       "visa",
       "has",
       "interview",
       "official."
-    ]
+    ],
+    "rouge1_f1": 0.07999999999999999,
+    "rougeL_f1": 0.07999999999999999
   }
 ]
