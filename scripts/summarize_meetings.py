@@ -7,6 +7,19 @@ from tqdm import tqdm
 from transformers import pipeline, AutoTokenizer
 from datasets import Dataset
 from collections import defaultdict
+import logging
+
+# -------------------------
+# Logging setup
+# -------------------------
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.StreamHandler()
+    ]
+)
+logging.info("Script initialized successfully.")
 
 # -------------------------------
 # 1. Configurable parameters
