@@ -1,13 +1,20 @@
-# transcribe.py
 import os
 import json
 import whisper
+import whisper
+import soundfile as sf
 
+# Load audio without ffmpeg
+audio, sr = sf.read("../data/sample_meeting.wav")
+model = whisper.load_model("base")
+
+result = model.transcribe(audio, fp16=False, samplerate=sr)
+print(result["text"])
 # -------------------------
 # Paths
 # -------------------------
-AUDIO_FOLDER = "../audios"             # Folder containing WAV files
-OUTPUT_JSON = "../data/sample_meetings.json"  # Output JSON
+AUDIO_FILE = "../data/sample_meeting.wav"      # single WAV file
+OUTPUT_JSON = "../data/sample_meetings.json"
 
 # -------------------------
 # Load Whisper model
@@ -17,25 +24,19 @@ model = whisper.load_model("base")
 print("Model loaded.")
 
 # -------------------------
-# Transcribe all WAV files
+# Transcribe the file
 # -------------------------
-results = []
+print(f"Transcribing: {AUDIO_FILE} ...")
+result = model.transcribe(AUDIO_FILE)
+text = result["text"].strip()
 
-for filename in os.listdir(AUDIO_FOLDER):
-    if filename.lower().endswith(".wav"):
-        audio_path = os.path.join(AUDIO_FOLDER, filename)
-        print(f"Transcribing: {audio_path} ...")
-        
-        result = model.transcribe(audio_path)
-        text = result["text"].strip()
-        
-        # Save per-audio transcription
-        results.append({
-            "meeting_id": filename,
-            "generated": text,
-            "reference": ""  # can be filled later
-        })
-        print(f"Done: {filename}\n{text}\n")
+results = [{
+    "meeting_id": os.path.basename(AUDIO_FILE),
+    "generated": text,
+    "reference": ""  # can be filled later
+}]
+
+print(f"Done:\n{text}\n")
 
 # -------------------------
 # Save results to JSON
